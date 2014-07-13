@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A6BDAFA1971BB250073A1F6 /* TstProtGrodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6BDAF91971BB250073A1F6 /* TstProtGrodViewController.m */; };
 		9A98896C19719ADD00000ECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A98896B19719ADD00000ECE /* Foundation.framework */; };
 		9A98896E19719ADD00000ECE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A98896D19719ADD00000ECE /* CoreGraphics.framework */; };
 		9A98897019719ADD00000ECE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A98896F19719ADD00000ECE /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A6BDAF81971BB250073A1F6 /* TstProtGrodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TstProtGrodViewController.h; path = ../TstProtGrodViewController.h; sourceTree = "<group>"; };
+		9A6BDAF91971BB250073A1F6 /* TstProtGrodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TstProtGrodViewController.m; path = ../TstProtGrodViewController.m; sourceTree = "<group>"; };
 		9A98896819719ADD00000ECE /* DesignIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A98896B19719ADD00000ECE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9A98896D19719ADD00000ECE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +117,8 @@
 			children = (
 				9A98897A19719ADD00000ECE /* AppDelegate.h */,
 				9A98897B19719ADD00000ECE /* AppDelegate.m */,
+				9A6BDAF81971BB250073A1F6 /* TstProtGrodViewController.h */,
+				9A6BDAF91971BB250073A1F6 /* TstProtGrodViewController.m */,
 				9A98897D19719ADD00000ECE /* Main.storyboard */,
 				9A98898019719ADD00000ECE /* ViewController.h */,
 				9A98898119719ADD00000ECE /* ViewController.m */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A98898219719ADD00000ECE /* ViewController.m in Sources */,
+				9A6BDAFA1971BB250073A1F6 /* TstProtGrodViewController.m in Sources */,
 				9A98897C19719ADD00000ECE /* AppDelegate.m in Sources */,
 				9A98897819719ADD00000ECE /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				9A98899C19719ADD00000ECE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A98899D19719ADD00000ECE /* Build configuration list for PBXNativeTarget "DesignIOTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				9A98899F19719ADD00000ECE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
